@@ -1,24 +1,8 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">DentistAppointment</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
-
-<MudNavMenu>
+﻿<MudNavMenu>
     <MudNavLink Href="/" Icon="@Icons.Filled.Home" Style=>Home</MudNavLink>
     <MudNavLink Href="/appointment" Icon="@Icons.Filled.AccessTimeFilled">Make Appointment</MudNavLink>
 </MudNavMenu>
 
 @code {
-    private bool collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
 }
