@@ -1,15 +1,14 @@
 ﻿@page "/appointment"
 @using DentistAppointment.Business.Services
 
-<PageTitle>Appointment</PageTitle>
+<PageTitle>Afspraak</PageTitle>
 
-<h1>Appointment</h1>
+<h1>Afspraak</h1>
 
-<p>Name: @name</p>
-<p>Date: @date</p>
+<p>Naam: @name</p>
+<p>Datum: @date</p>
 
-<MudButton @onclick="ShowAppointment">Show appointment</MudButton>
-<button class="btn btn-primary" @onclick="ShowAppointment">Click me</button>
+<MudButton @onclick="ShowAppointment" >Toon een afspraak</MudButton>
 
 @code {
     private string? name = string.Empty;
