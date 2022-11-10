@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentistAppointment", "DentistAppointment\DentistAppointment.csproj", "{59D0610B-3628-4E5C-9A84-32856D031270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentistAppointment", "DentistAppointment\DentistAppointment.csproj", "{59D0610B-3628-4E5C-9A84-32856D031270}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentistAppointment.Business", "DentistAppointment.Business\DentistAppointment.Business.csproj", "{EE2F2512-58B4-4ACA-8E17-A1BF7ADB71FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentistAppointment.Business", "DentistAppointment.Business\DentistAppointment.Business.csproj", "{EE2F2512-58B4-4ACA-8E17-A1BF7ADB71FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentistAppointment.API", "DentistAppointment.API\DentistAppointment.API.csproj", "{260E3317-7B7A-4661-BEB5-89920F684672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EE2F2512-58B4-4ACA-8E17-A1BF7ADB71FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE2F2512-58B4-4ACA-8E17-A1BF7ADB71FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE2F2512-58B4-4ACA-8E17-A1BF7ADB71FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260E3317-7B7A-4661-BEB5-89920F684672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260E3317-7B7A-4661-BEB5-89920F684672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260E3317-7B7A-4661-BEB5-89920F684672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260E3317-7B7A-4661-BEB5-89920F684672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

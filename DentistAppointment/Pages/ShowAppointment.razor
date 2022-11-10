@@ -8,15 +8,15 @@
 <p>Naam: @name</p>
 <p>Datum: @date</p>
 
-<MudButton @onclick="ShowAppointment" >Toon een afspraak</MudButton>
+<MudButton @onclick="Get" >Toon een afspraak</MudButton>
 
 @code {
     private string? name = string.Empty;
     private string? date = string.Empty;
 
-    private void ShowAppointment()
+    private void Get()
     {
-        var appointment = new AppointmentService().GetAppointment();
+        var appointment = new AppointmentService().Get();
         name = appointment.Name;
         date = appointment.Date.ToShortDateString();
     }
