@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentistAppointment.Business
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentistAppointment.API", "DentistAppointment.API\DentistAppointment.API.csproj", "{260E3317-7B7A-4661-BEB5-89920F684672}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentistAppointment.Test", "DentistAppointment.Test\DentistAppointment.Test.csproj", "{D208A98C-F2CC-42CC-A60F-33BB41D55147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{260E3317-7B7A-4661-BEB5-89920F684672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{260E3317-7B7A-4661-BEB5-89920F684672}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{260E3317-7B7A-4661-BEB5-89920F684672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D208A98C-F2CC-42CC-A60F-33BB41D55147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D208A98C-F2CC-42CC-A60F-33BB41D55147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D208A98C-F2CC-42CC-A60F-33BB41D55147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D208A98C-F2CC-42CC-A60F-33BB41D55147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
