@@ -29,8 +29,6 @@ namespace DentistAppointment.Business.Services
                 }
             };
 
-            Appointment a = appointments[r];
-
             return appointments[r];
         }
     }
