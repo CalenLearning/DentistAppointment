@@ -1,5 +1,6 @@
 ﻿@page "/appointment"
 @using DentistAppointment.Business.Services
+@using DentistAppointment.Services
 
 <PageTitle>Afspraak</PageTitle>
 
@@ -14,10 +15,13 @@
     private string? name = string.Empty;
     private string? date = string.Empty;
 
-    private void Get()
+    private async Task Get()
     {
-        var appointment = new AppointmentService().Get();
+        var client = new Client("http://localhost:52821", new System.Net.Http.HttpClient());
+
+        //var appointment = new AppointmentService().Get();
+        var appointment = await client.GetAppointmentAsync();
         name = appointment.Name;
-        date = appointment.Date.ToShortDateString();
+        date = appointment.Date.ToString();
     }
 }
