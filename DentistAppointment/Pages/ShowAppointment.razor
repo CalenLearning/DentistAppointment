@@ -9,7 +9,7 @@
 <p>Naam: @name</p>
 <p>Datum: @date</p>
 
-<MudButton @onclick="Get" >Toon een afspraak</MudButton>
+<MudButton @onclick="Get">Toon een afspraak</MudButton>
 
 @code {
     private string? name = string.Empty;
@@ -17,10 +17,11 @@
 
     private async Task Get()
     {
-        var client = new Client("http://localhost:52821", new System.Net.Http.HttpClient());
-
         //var appointment = new AppointmentService().Get();
+
+        var client = new Client("http://localhost:7282", new System.Net.Http.HttpClient());
         var appointment = await client.GetAppointmentAsync();
+        
         name = appointment.Name;
         date = appointment.Date.ToString();
     }

@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentistAppointment", "Denti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentistAppointment.Business", "DentistAppointment.Business\DentistAppointment.Business.csproj", "{EE2F2512-58B4-4ACA-8E17-A1BF7ADB71FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentistAppointment.API", "DentistAppointment.API\DentistAppointment.API.csproj", "{260E3317-7B7A-4661-BEB5-89920F684672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentistAppointment.API", "DentistAppointment.API\DentistAppointment.API.csproj", "{260E3317-7B7A-4661-BEB5-89920F684672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentistAppointment.Test", "DentistAppointment.Test\DentistAppointment.Test.csproj", "{D208A98C-F2CC-42CC-A60F-33BB41D55147}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentistAppointment.Test", "DentistAppointment.Test\DentistAppointment.Test.csproj", "{D208A98C-F2CC-42CC-A60F-33BB41D55147}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
